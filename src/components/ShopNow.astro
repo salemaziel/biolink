@@ -2,8 +2,41 @@
 import { getI18N } from "@/i18n";
 import CardDocuments from "../components/CardDocuments.astro";
 import NoDataCard from "../components/NoDataCard.astro";
-// import { cardsData } from "../data/educationhub.js";
-const cardsData: any[] = [];
+
+const cardsData = [
+  {
+    id: "service-lab-setup",
+    href: "https://viadelweb.com/get-started/",
+    title: "Self-Hosted Lab Setup Intensive",
+    subtitle: "Nextcloud, Jellyfin, Mautic, HumHub, and Mastodon deployments with bilingual onboarding.",
+    imageSrc: "/img/projects/neon-card.svg",
+    imageAlt: "Self-hosted services",
+  },
+  {
+    id: "service-care-plan",
+    href: "https://viadelweb.com/products/website-care-plan/",
+    title: "Via Del Web Care Plans",
+    subtitle: "Ongoing updates, backups, and privacy-first analytics for storefronts and nonprofits.",
+    imageSrc: "/img/projects/neon-card.svg",
+    imageAlt: "Care plan icon",
+  },
+  {
+    id: "service-editorial",
+    href: "https://boldlatina.com/author/viadelweb-gmail-com/",
+    title: "Editorial & Community Partnerships",
+    subtitle: "Storytelling, workshops, and DevRel-style docs for Latina founders and mutual aid orgs.",
+    imageSrc: "/img/projects/neon-card.svg",
+    imageAlt: "Editorial partnerships",
+  },
+  {
+    id: "service-automation",
+    href: "https://viadelweb.com/services/",
+    title: "Automation + CRM Retrofit",
+    subtitle: "Mautic and Matrix/Signal workflows that replace creepy SaaS with open-source stacks.",
+    imageSrc: "/img/projects/neon-card.svg",
+    imageAlt: "Automation service",
+  },
+];
 //Para cambiar idioma de textos
 const { currentLocale } = Astro;
 const i18n = getI18N({ currentLocale });

@@ -1,0 +1,119 @@
+# .codex/config.toml — Astro personal website (Termux)
+
+model = "gpt-5-codex"                  # Model selection via config. [web:1]
+approval_policy = "on-request"         # Alias used by --full-auto. [web:37]
+sandbox_mode = "workspace-write"       # Read/write in workspace, not full system. [web:37]
+
+project_root_markers = [".git", "package.json", "astro.config.mjs", "pnpm-lock.yaml"]  # Root detection. [web:16]
+
+[sandbox_workspace_write]
+network_access = true                 # Needed for npm/pnpm installs. [web:37]
+
+[shell_environment_policy]
+inherit = "all"                       # Less friction in Termux vs core/none. [web:26]
+#ignore_default_excludes = false        # Keep default KEY/SECRET/TOKEN filtering. [web:16]
+#exclude = [
+#  "*PASSWORD*",
+#  "*PASSWD*",
+#  "*SECRET*",
+#  "*TOKEN*",
+#  "*_KEY*",
+#  "AWS_*",
+#  "AZURE_*",
+#  "GCP_*",
+#]
+# Optional: force predictable behavior for Node tooling. [web:26]
+#set = { CI = "1" }
+
+# --- MCP servers -------------------------------------------------------------
+
+[mcp_servers.fanyangmeng-ghost-mcp]
+#command = "npx"
+#args = ["-y", "@fanyangmeng/ghost-mcp"]
+command = "ghost-mcp"
+startup_timeout_sec = 20.0
+tool_timeout_sec = 45.0
+enabled = true
+
+[mcp_servers.fanyangmeng-ghost-mcp.env]
+GHOST_API_URL = "GHOST_API_URL"
+GHOST_ADMIN_API_KEY = "GHOST_ADMIN_API_KEY"
+GHOST_API_VERSION = "v6.0"
+
+[mcp_servers.astro_docs]
+url = "https://mcp.docs.astro.build/mcp"
+startup_timeout_sec = 20.0
+tool_timeout_sec = 45.0
+enabled = true
+
+[mcp_servers.canva]
+url = "https://mcp.canva.com/mcp"
+startup_timeout_sec = 20.0
+tool_timeout_sec = 45.0
+enabled = false
+
+[mcp_servers.chrome_devtools_stdio]
+command = "npx"
+args = ["-y", "chrome-devtools-mcp@latest"]
+startup_timeout_sec = 20.0
+tool_timeout_sec = 45.0
+enabled = false
+
+[mcp_servers.chrome_devtools_http]
+url = "http://localhost:3000/mcp"
+startup_timeout_sec = 20.0
+tool_timeout_sec = 45.0
+enabled = false
+
+[mcp_servers.context7-npx]
+command = "npx"
+args = ["-y", "@upstash/context7-mcp"]
+startup_timeout_sec = 20.0
+tool_timeout_sec = 45.0
+enabled = false
+
+
+[mcp_servers.context7-http]
+url = "https://mcp.context7.com/mcp"
+startup_timeout_sec = 20.0
+tool_timeout_sec = 45.0
+enabled = false
+
+[mcp_servers.context7-http.env_http_headers]
+CONTEXT7_API_KEY = "CONTEXT7_API_KEY"
+
+[mcp_servers.open-websearch]
+#command = "npx"
+#args = ["-y", "open-websearch@latest"]
+command = "open-websearch"
+startup_timeout_sec = 20.0
+tool_timeout_sec = 45.0
+enabled = false
+
+[mcp_servers.open-websearch.env]
+ALLOWED_SEARCH_ENGINES = "duckduckgo,bing,brave"
+DEFAULT_SEARCH_ENGINE = "duckduckgo"
+MODE = "stdio"
+
+[mcp_servers.perplexity]
+command = "perplexity-mcp"
+startup_timeout_sec = 20.0
+tool_timeout_sec = 45.0
+enabled = true
+
+[mcp_servers.perplexity.env]
+PERPLEXITY_API_KEY = "PERPLEXITY_API_KEY"
+
+[mcp_servers.sequential-thinking]
+#command = "npx"
+#args = ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+command = "mcp-server-sequential-thinking"
+startup_timeout_sec = 20.0
+tool_timeout_sec = 45.0
+enabled = true
+
+[mcp_servers.starwind_ui]
+command = "starwind-ui-mcp"
+startup_timeout_sec = 20.0
+tool_timeout_sec = 45.0
+enabled = true

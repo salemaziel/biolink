@@ -1,69 +1,69 @@
 {
-  "SEO_TITLE": "ItsTeddyDev Hub - Centro de Recursos y Contenidos",
-  "SEO_DESCRIPTION": "Explora libros, artículos, pasatiempos y recursos educativos en el hub personal de Justcoddev. Descubre lo mejor de mi carrera y mis recomendaciones.",
+  "SEO_TITLE": "Laboratorio Neón de Salem — Via Del Web y stack autoalojado",
+  "SEO_DESCRIPTION": "Salem Mackintosh-Benitez es el desarrollador méxico-estadounidense detrás de Via Del Web y un laboratorio de servicios privados como Nextcloud, Jellyfin, Mautic, HumHub y Mastodon.",
   "ERROR_404": {
     "TITLE": "404 - No Encontrado",
-    "DESCRIPTION": "No Encontrado",
-    "BACK_HOMEPAGE_BTN": "Volver"
+    "DESCRIPTION": "Se perdió la señal dentro del laboratorio.",
+    "BACK_HOMEPAGE_BTN": "Regresar al laboratorio"
   },
   "HERO": {
-    "NAME": "Teddy Summers",
-    "TITLE": "Ingeniero de Software",
-    "DESCRIPTION": "Soy un ingeniero de software que ama aprender y compartir conocimientos. Me apasiona la tecnología, la programación y el desarrollo de software. Siempre estoy buscando nuevos desafíos y oportunidades para crecer."
+    "NAME": "Salem Mackintosh-Benitez",
+    "TITLE": "Director de Via Del Web • Cuidador de un stack autoalojado",
+    "DESCRIPTION": "Diseño sitios bilingües para negocios locales y mantengo, en Debian, mi laboratorio privado con Nextcloud, Jellyfin, Mautic, HumHub y Mastodon para clientes que priorizan su privacidad."
   },
   "ABOUT": {
     "TITLE": "acerca de",
-    "DESCRIPTION": "Acerca de DESCRIPCIÓN"
+    "DESCRIPTION": "Documentando el Laboratorio Neón"
   },
   "NAVBAR": {
-    "PROJECTS": "Projectos",
+    "PROJECTS": "Proyectos",
     "ARTICLES": "Artículos",
-    "BOOKSMARKS": "Marcadores",
-    "EDUCATION_HUB": "Hub Educativo",
+    "BOOKSMARKS": "Marcadores del Lab",
+    "EDUCATION_HUB": "Centro Educativo",
     "FUN_HOBBIES": "Pasatiempos",
-    "SHOP_NOW": "Comprar Ahora"
+    "SHOP_NOW": "Servicios del Lab"
   },
   "PROJECTS": {
     "empty": {
-      "message": "Vaya, no hay proyectos para mostrar.",
-      "message2": "¡Pero no te preocupes, siempre hay algo interesante esperándote!"
+      "message": "El laboratorio se está actualizando.",
+      "message2": "Estoy documentando el siguiente proyecto de Via Del Web."
     },
     "BADGE": {
-      "NEW": "Nuevo"
+      "NEW": "Nuevo Drop"
     }
   },
   "ARTICLES": {
     "empty": {
-      "message": "Vaya, no hay artículos para mostrar.",
-      "message2": "¡Pero no te preocupes, siempre hay algo interesante esperándote!"
+      "message": "No hay notas de campo aquí.",
+      "message2": "Lee la columna en BoldLatina o mi blog en Ghost mientras publico más."
     }
   },
   "BOOKSMARKS": {
     "empty": {
-      "message": "Vaya, no hay marcadores para mostrar.",
-      "message2": "¡Pero no te preocupes, siempre hay algo interesante esperándote!"
+      "message": "Marcadores sincronizándose...",
+      "message2": "Escríbeme si quieres el repositorio completo de enlaces."
     }
   },
   "EDUCATION_HUB": {
     "empty": {
-      "message": "Vaya, no hay recursos educativos para mostrar.",
-      "message2": "¡Pero no te preocupes, siempre hay algo interesante esperándote!"
+      "message": "Todavía no hay módulos de estudio.",
+      "message2": "La actualización del programa del Laboratorio Neón llega pronto."
     }
   },
   "FUN_HOBBIES": {
     "empty": {
-      "message": "Vaya, no hay pasatiempos divertidos para mostrar.",
-      "message2": "¡Pero no te preocupes, siempre hay algo interesante esperándote!"
+      "message": "No hay pasatiempos registrados.",
+      "message2": "Puede que esta noche esté pintando un mural."
     }
   },
   "SHOP_NOW": {
     "empty": {
-      "message": "Vaya, no hay productos para mostrar.",
-      "message2": "¡Pero no te preocupes, siempre hay algo interesante esperándote!"
+      "message": "Agenda de servicios disponible pronto.",
+      "message2": "Usa el formulario de Via Del Web por ahora."
     }
   },
   "NOT_DATA": {
-    "message": "Vaya, no hay datos para mostrar.",
-    "message2": "¡Pero no te preocupes, siempre hay algo interesante esperándote!"
+    "message": "Nada registrado aquí todavía.",
+    "message2": "Prueba otra pestaña mientras sincronizo estos datos."
   }
 }

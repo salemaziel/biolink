@@ -36,16 +36,21 @@
   /* Chrome, Safari, y Opera */
 }
 
-/* body {
-  margin: 0;
-  padding: 0;
-  background-color: hsl(218, 28%, 13%);
-  color: hsl(0, 0%, 100%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body {
+  background-color: #f8f5ff;
+  background-image: radial-gradient(circle at 1px 1px, rgba(46, 242, 255, 0.25) 1px, transparent 0),
+    radial-gradient(circle at 30px 30px, rgba(255, 79, 216, 0.16) 1px, transparent 0);
+  background-size: 60px 60px;
   min-height: 100vh;
-} */
+  color: #060b1e;
+}
+
+html.dark body {
+  background-color: #050813;
+  background-image: radial-gradient(circle at 1px 1px, rgba(46, 242, 255, 0.12) 1px, transparent 0),
+    radial-gradient(circle at 30px 30px, rgba(255, 79, 216, 0.08) 1px, transparent 0);
+  color: #f3f4ff;
+}
 
 /* h1,
 h2,

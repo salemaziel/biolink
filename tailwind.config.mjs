@@ -19,25 +19,25 @@ export default {
 
 			},
 			colors: {
-				'hub-background': '#FFFFFF',
-				'hub-border': '#EDEDED',
-				'hub-title': '#121020',
-				'hub-subtitle': '#888888',
-				'hub-background-nav': '#FAFAFA',
-				'hub-inactive': '#B0B0B0',
-				'hub-text': '#FFFFFF',
-				'icons': '#6E6E6E',
+				'hub-background': '#f8f5ff',
+				'hub-border': '#d6d0ff',
+				'hub-title': '#060b1e',
+				'hub-subtitle': '#51558a',
+				'hub-background-nav': '#efe9ff',
+				'hub-inactive': '#8a87c3',
+				'hub-text': '#ffffff',
+				'icons': '#2ef2ff',
 				// dark
-				'hub-background-dark': '#101419',
-				'hub-border-dark': '#052B2E',
-				'hub-title-dark': '#FFFFFF',
-				'hub-subtitle-dark': '#999999',
-				'hub-background-nav-dark': '#080C11',
-
-
+				'hub-background-dark': '#050813',
+				'hub-border-dark': '#23264a',
+				'hub-title-dark': '#f3f4ff',
+				'hub-subtitle-dark': '#aeb5ec',
+				'hub-background-nav-dark': '#0e1125',
 			},
 			backgroundImage: {
-				'btn-gradient': 'linear-gradient(to right, #825BDD, #5327BA)', // Gradiente para botones
+				'btn-gradient': 'linear-gradient(135deg, #2ef2ff 0%, #ff4fd8 100%)',
+				'body-grid':
+					'radial-gradient(circle at 1px 1px, rgba(46,242,255,0.25) 1px, transparent 0)',
 			},
 		},
 

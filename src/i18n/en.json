@@ -1,69 +1,69 @@
 {
-  "SEO_TITLE": "ItsTeddyDev Hub - Resource and Content Center",
-  "SEO_DESCRIPTION": "Explore books, articles, hobbies, and educational resources at Justcoddev's personal hub. Discover the best of my career and my recommendations.",
+  "SEO_TITLE": "Salem's Neon Lab — Via Del Web & Self-Hosted Stack",
+  "SEO_DESCRIPTION": "Salem Mackintosh-Benitez is the Mexican-American dev behind Via Del Web and a privacy-first lab of Nextcloud, Jellyfin, Mautic, HumHub, and Mastodon services.",
   "ERROR_404": {
     "TITLE": "404 - Not Found",
-    "DESCRIPTION": "Not Found",
-    "BACK_HOMEPAGE_BTN": "Go Back"
+    "DESCRIPTION": "Signal lost inside the lab.",
+    "BACK_HOMEPAGE_BTN": "Return to the lab"
   },
   "HERO": {
-    "NAME": "Teddy Summers",
-    "TITLE": "Software Engineer",
-    "DESCRIPTION": "I'm a software engineer who loves to learn and share knowledge. I'm passionate about technology, programming, and software development. I'm always looking for new challenges and opportunities to grow."
+    "NAME": "Salem Mackintosh-Benitez",
+    "TITLE": "Via Del Web studio lead • Self-hosted stack caretaker",
+    "DESCRIPTION": "I build bilingual sites for small businesses and keep a Debian-powered lab of Nextcloud, Jellyfin, Mautic, HumHub, and Mastodon humming for privacy-first clients."
   },
   "ABOUT": {
     "TITLE": "about",
-    "DESCRIPTION": "About DESCRIPTION"
+    "DESCRIPTION": "Documenting the Neon Lab"
   },
   "NAVBAR": {
     "PROJECTS": "Projects",
     "ARTICLES": "Articles",
-    "BOOKSMARKS": "BooksMarks",
+    "BOOKSMARKS": "Lab Bookmarks",
     "EDUCATION_HUB": "Education Hub",
     "FUN_HOBBIES": "Fun Hobbies",
-    "SHOP_NOW": "Shop Now"
+    "SHOP_NOW": "Lab Services"
   },
   "PROJECTS": {
     "empty": {
-      "message": "Oops, no projects to display.",
-      "message2": "But don't worry, there's always something interesting waiting for you!"
+      "message": "Lab update pending.",
+      "message2": "I'm documenting the next Via Del Web build right now."
     },
     "BADGE": {
-      "NEW": "New"
+      "NEW": "New Drop"
     }
   },
   "ARTICLES": {
     "empty": {
-      "message": "Oops, there are no articles to display.",
-      "message2": "But don't worry, there's always something interesting waiting for you!"
+      "message": "No field notes here yet.",
+      "message2": "Check the BoldLatina column or my Ghost blog while I publish more."
     }
   },
   "BOOKSMARKS": {
     "empty": {
-      "message": "Oops, there are no bookmarks to display.",
-      "message2": "But don't worry, there's always something interesting waiting for you!"
+      "message": "Lab bookmarks syncing...",
+      "message2": "Ping me if you want the full repo of links."
     }
   },
   "EDUCATION_HUB": {
     "empty": {
-      "message": "Oops, there are no educational resources to display.",
-      "message2": "But don't worry, there's always something interesting waiting for you!"
+      "message": "No learning drops yet.",
+      "message2": "The Neon Lab syllabus refresh is shipping soon."
     }
   },
   "FUN_HOBBIES": {
     "empty": {
-      "message": "Oops, there are no fun hobbies to display.",
-      "message2": "But don't worry, there's always something interesting waiting for you!"
+      "message": "No hobbies logged.",
+      "message2": "Maybe I'm out bombing a canvas tonight."
     }
   },
   "SHOP_NOW": {
     "empty": {
-      "message": "Oops, there are no products to display.",
-      "message2": "But don't worry, there's always something interesting waiting for you!"
+      "message": "Lab services booking soon.",
+      "message2": "Use the Via Del Web contact form in the meantime."
     }
   },
   "NOT_DATA": {
-    "message": "Oops, no data to display.",
-    "message2": "But don't worry, there's always something interesting waiting for you!"
+    "message": "Nothing logged here yet.",
+    "message2": "Try another tab while I sync these entries."
   }
 }
